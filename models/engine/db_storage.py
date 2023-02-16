@@ -95,7 +95,3 @@ class DBStorage:
                 return len(self.all())
         # TODO: what if entered non-existant class?
         return len(self.all(c))
-
-
-    
-
